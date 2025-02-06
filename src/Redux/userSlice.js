@@ -11,6 +11,7 @@ const userSlice = createSlice({
   reducers: {
     saveUserData: (state, action) => {
       state.userData = action.payload;
+      console.log("updated")
       localStorage.setItem("userData", JSON.stringify(action.payload)); // Save to localStorage
     },
     saveRichText: (state, action) => {

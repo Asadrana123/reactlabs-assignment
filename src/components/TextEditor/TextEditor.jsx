@@ -37,7 +37,7 @@ const TextEditor = () => {
       localStorage.setItem("richText", defaultText); // Save initial default text
       dispatch(saveRichText(defaultText)); // Save to Redux
     }
-  }, [dispatch]);
+  }, [dispatch,storedText]);
 
   return (
     <div className="text-editor-container">
