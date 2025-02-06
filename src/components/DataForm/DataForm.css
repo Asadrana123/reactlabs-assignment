@@ -1,3 +1,8 @@
 .data-form{
     width: 48%;
 }
+@media screen and (max-width:768px){
+    .data-form{
+        width: 90%;
+    }
+}

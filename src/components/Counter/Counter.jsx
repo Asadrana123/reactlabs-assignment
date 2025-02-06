@@ -35,7 +35,8 @@ const Counter = () => {
       justifyContent="center"  
       border="1px solid #ccc" 
       borderRadius="8px"
-      height="100%"
+      height="90%"
+      p={2}
     >
       <Typography variant="h4">Counter</Typography>
       <AnimatedTypography variant="h2">
